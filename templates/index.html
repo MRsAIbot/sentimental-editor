@@ -1,0 +1,69 @@
+
+<!DOCTYPE html> 
+<html>
+<head>
+
+<title>Sentimental Editor</title>
+<link type="text/css" href='static/stylesheets/style.css' rel='stylesheet'>
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+<script src="static/javascripts/jquery-1.11.1.min.js" type="text/javascript" /></script>
+<script src="static/javascripts/main.js" type="text/javascript" /></script>
+
+</head>
+
+<body>
+
+  <div class="header">
+    SENTIMENTAL EDITOR
+  </div> 
+
+    <div id="spinner" class="spinner" style="display:none;">
+    <img id="img-spinner" src="static/spinner.gif" alt="Loading"/>
+    </div>
+
+	<div class="left">
+  
+    
+
+  	<form action="/sentimental/" id="articleForm" method="POST">
+      <h2>Title:</h2>
+      <input type="text" placeholder="Title" name="title" style="width: 500px;">
+      <h2>New article:</h2>
+    	<textarea name="article" placeholder="Article text" id="myTextarea" style="width: 500px; height: 400px;"></textarea>
+    <br>
+    <input type="submit" class="submit" value="Sentiment">
+
+
+	</form>
+
+    <p id="result"></p>
+  </div>
+
+  <div class="right">
+
+    <div id="keywords">
+    <h2>Keywords:</h2>
+
+    </div>
+    <br>
+
+    <div id="twitter">
+    <h2>Twitter feed:</h2>
+
+
+    </div>
+    <br>
+
+
+    <!-- 
+    <div id="instagram">
+    <h2>Instagram feed:</h2>
+    </div>
+     -->
+
+
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,285 @@
+/* The header*/
+.header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:1.5%;	 
+    margin: -1%;
+    font-size: 20px;
+    font-family: 'Bodoni MT', Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+}
+
+/* The main title texts */
+h2 {
+	font-family: 'Bodoni MT', Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+}
+
+/* Left part of the screen: input boxex for article and title */
+.left {
+	float: left;
+	margin-top: 5%;
+	margin-left: 5%;
+}
+
+/* Font layout text boxes */
+input, textarea {
+	font-size: 16px;
+	font-family: 'Droid Sans', sans-serif;
+}
+
+/* Submit button */
+.submit {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #f6f6f6));
+	background:-moz-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:-webkit-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:-o-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:-ms-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0);
+	background-color:#ffffff;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:'Droid Sans', sans-serif;;
+	font-size:15px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.submit:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f6f6f6), color-stop(1, #ffffff));
+	background:-moz-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+	background:-webkit-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+	background:-o-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+	background:-ms-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#ffffff',GradientType=0);
+	background-color:#f6f6f6;
+}
+.submit:active {
+	position:relative;
+	top:1px;
+}
+
+/* Right part of the screen: keywords, and social media feeds */
+.right {
+	margin-top: 5%;
+	width: 46%;
+	float: right;
+	margin-right: 5%;
+
+}
+
+/* ============================== TWITTER FEED ============================== */
+/* Name of twitter user */
+.name{
+	font-weight: bold;
+	font-family: sans-serif;;
+}
+
+/* User name of twitter user*/
+.username{
+	color: gray;
+	font-family: 'Droid Sans', sans-serif;
+}
+
+/* User image */
+.image{
+	float: left;
+	margin-right: 1%;
+}
+
+/* Date & time of creation of twitter post */
+.created{
+	color: gray;
+	float: right;
+	margin-right: 10%;
+	font-family: 'Droid Sans', sans-serif;;
+}
+
+/* Content twitter post */
+.content{
+	font-family: 'Droid Sans', sans-serif;;
+}
+
+/* Colour coding of the tweet according to sentiment */
+.bar0 {
+	background-color: #CC0000;
+	padding: 6%;
+    padding-right: 0%;
+    padding-left: 1%;
+    float: left;
+    margin-right: 2%;
+}
+
+.bar1{
+	background-color: #FF0000;
+	padding: 6%;
+    padding-right: 0%;
+    padding-left: 1%;
+    float: left;
+    margin-right: 2%;
+
+}
+
+.bar2{
+	background-color: #FF3333;
+	padding: 6%;
+    padding-right: 0%;
+    padding-left: 1%;
+    float: left;
+    margin-right: 2%;
+
+}
+.bar3{
+	background-color: #FF6666;
+	padding: 6%;
+    padding-right: 0%;
+    padding-left: 1%;
+    float: left;
+    margin-right: 2%;
+
+}
+.bar4{
+	background-color: #FF9999;
+	padding: 6%;
+    padding-right: 0%;
+    padding-left: 1%;
+    float: left;
+    margin-right: 2%;
+
+}
+.bar5{
+	background-color: lightgray;
+	padding: 6%;
+    padding-right: 0%;
+    padding-left: 1%;
+    float: left;
+    margin-right: 2%;
+
+}
+.bar6{
+	background-color: #00FF00;
+	padding: 6%;
+    padding-right: 0%;
+    padding-left: 1%;
+    float: left;
+    margin-right: 2%;
+
+}
+.bar7{
+	background-color: #00CC00;
+	padding: 6%;
+    padding-right: 0%;
+    padding-left: 1%;
+    float: left;
+    margin-right: 2%;
+
+}
+.bar8{
+	background-color: #009900;
+	padding: 6%;
+    padding-right: 0%;
+    padding-left: 1%;
+    float: left;
+    margin-right: 2%;
+
+}
+.bar9{
+	background-color: #006600;
+	padding: 6%;
+    padding-right: 0%;
+    padding-left: 1%;
+    float: left;
+    margin-right: 2%;
+
+}
+.bar10{
+	background-color: #006633;
+	padding: 6%;
+    padding-right: 0%;
+    padding-left: 1%;
+    float: left;
+    margin-right: 2%;
+}
+
+/* ============================== KEYWORDS ============================== */
+/* Keywords of any type */
+.phrases{
+	float: left;
+	font-family: 'Droid Sans', sans-serif;
+}
+
+/* Colour according to sentiment */
+.phrase0 {
+	color: #CC0000;
+}
+
+.phrase1{
+	color: #FF0000;
+
+}
+
+.phrase2{
+	color: #FF3333;
+
+}
+.phrase3{
+	color: #FF6666;
+
+}
+.phrase4{
+	color: #FF9999;
+
+}
+.phrase5{
+	color: lightgray;
+
+}
+.phrase6{
+	color: #00FF00;
+
+}
+.phrase7{
+	color: #00CC00;
+
+}
+.phrase8{
+	color: #009900;
+
+}
+.phrase9{
+	color: #006600;
+
+}
+.phrase10{
+	color: #006633;
+
+}
+
+
+@media screen and (max-width: 1260px){
+
+	.right{ float: left; margin-left: 5%;}
+}
+
+.spinner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px; /* half width of the spinner gif */
+    margin-top: -50px; /* half height of the spinner gif */
+    text-align:center;
+    z-index:1234;
+    overflow: auto;
+    width: 100px; /* width of the spinner gif */
+    height: 102px; /*hight of the spinner gif +2px to fix IE8 issue */
+}
+
